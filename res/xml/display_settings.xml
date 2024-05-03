@@ -217,5 +217,15 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+
+    <!-- Lid event behavior-->
+        <ListPreference
+            android:key="lid_behavior"
+            android:title="@string/lid_behavior_title"
+            android:summary="@string/lid_behavior_summary"
+            android:entries="@array/lid_behavior_entries"
+            android:entryValues="@array/lid_behavior_values"
+            android:dialogTitle="@string/lid_behavior_title"
+            settings:controller="com.android.settings.display.LidBehaviorPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>

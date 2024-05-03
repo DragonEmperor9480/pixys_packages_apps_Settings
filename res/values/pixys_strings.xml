@@ -468,4 +468,11 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Always show time and info only when the device is plugged in</string>
 
+ <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart cover</string>
+    <string name="lid_behavior_summary">Control device behavior when cover is opened/closed</string>
+    <string name="lid_behavior_none">None</string>
+    <string name="lid_behavior_lock">Lock/Unlock</string>
+    <string name="lid_behavior_sleep">Sleep/Wake</string> 
+
 </resources>
